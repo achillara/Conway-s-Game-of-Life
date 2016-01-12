@@ -1,5 +1,13 @@
 
 public class World {
-	 Farm[][] grid = new Farm[7][6];
-
+	 Farm[] array;
+	 private int hour; 
+	 
+	 public int getHour(){
+		 return this.hour; 
+	 }
+	 
+	  public int addHour(){ 
+		 return hour+1; 
+	 }
 }
